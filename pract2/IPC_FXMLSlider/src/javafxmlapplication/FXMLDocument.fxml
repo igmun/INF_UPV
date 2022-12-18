@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane prefHeight="637.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmlapplication.FXMLDocumentController">
+   <children>
+      <VBox alignment="BOTTOM_LEFT" layoutX="83.0" layoutY="64.0" prefHeight="500.0" prefWidth="500.0">
+         <children>
+            <Rectangle fx:id="rectangulo" arcHeight="5.0" arcWidth="5.0" fill="#ffb21f" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+         </children>
+      </VBox>
+      <Slider fx:id="vslider" layoutX="40.0" layoutY="64.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="14.0" />
+      <Slider fx:id="hslider" layoutX="83.0" layoutY="584.0" prefHeight="14.0" prefWidth="500.0" />
+   </children>
+</Pane>
